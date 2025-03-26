@@ -1,0 +1,10 @@
+a= int(input("Digite um numero: "))
+b= int(input("digite um numero: "))
+c= int(input("digite um numero: "))
+
+if a>b and a>c and b>c: print(a,b,c)
+if a<b and a<c and b>c: print(b,c,a)
+if c>a and c>b and b>a: print (c,b,a)
+if b>a and a>c: print(b, a, c)
+if a>c and c>b: print(a,c,b)
+if c>a and a>c: print (c,a,b)
