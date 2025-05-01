@@ -1,4 +1,10 @@
-km= int(input("digite a quantidade de quilometros:"))
-dias= int(input("digite quantidade de dias:"))
-total= (km*0.15) +  (dias * 60)
-print("total a pagar:", (total))
+i = 0
+while i < 5:
+    print(i)
+    i =+ 1
+    if i == 3:
+        print(0)
+        break
+    else:
+        print(0)
+        break
